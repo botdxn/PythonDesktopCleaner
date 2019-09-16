@@ -8,7 +8,6 @@ video = [".avi", ".flv", ".wmv", ".mov", ".mp4", ".webm"]
 python = [".py", ".pyc", ".pyw"]
 
 #create list of files inside a given directory
-
 filesList = []
 for (pathDesktop, dirnames, filenames) in os.walk(pathDesktop):
     for filename in filenames:
