@@ -10,5 +10,5 @@ def checkDirs():
         else:
             print(f"Katalog {STANDARD_DIR} już istnieje.")
 
-#checkDirs()
+checkDirs()
 #os.mkdir("TestDir")

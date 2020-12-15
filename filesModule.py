@@ -1,7 +1,7 @@
 import os, shutil, dirModule
 
 #definition for paths and standard extensions
-pathDesktop = "C:\\Users\\Marcin\\Downloads\\"
+pathDesktop = "C:\\Users\\Marcin\\Desktop\\"
 images = [".jpg", ".jpeg", ".png", ".tga", ".tiff", ".bmp", ".gif"]
 documents = [".pdf", ".txt", ".doc", ".docx", ".mobi", ".epub", ".rtf", ".odt"]
 video = [".avi", ".flv", ".wmv", ".mov", ".mp4", ".webm"]
@@ -55,13 +55,12 @@ def moveFiles(filesList):
                 print(f"Przeniesiono {os.path.basename(file)} do katalogu \"Inne\"")
             except:
                 pass
-        
-        
+
+
         #PYTHON
         '''elif fileExtension(file)[1] in python:
             shutil.move(file, pathDesktop + "Python\\" + os.path.basename(file))
             print(f"Przeniesiono {os.path.basename(file)} do katalogu \"Python\"")'''
-
 
 
 moveFiles(filesList)
